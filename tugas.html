@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tombol di Tengah</title>
+    
+  <style>
+   
+/* Aturtampilan dasar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ff007a, #ff8c00);
+    margin-bottom: 50px; /* Menambah jarak antara header dan form */
+}
+
+
+/* Styling untuk teks "My Skills" */
+.skills-title {
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Kontainer utama agar tombol tetap di tengah */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Menghindari menutupi header */
+}
+
+/* Styling untuk card */
+.card {
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #ff007b6e;
+    text-align: center;
+}
+
+/* Tombol */
+.button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff007a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #ff007b48;
+}
+
+  
+  </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="skils-h1"><a href="index.html">Tugas Tefa</a></h1>
+      </header>
+    <div class="card">
+    <a href="b.sunda/sunda1.html"><button class="button">Sunda</button></a>
+    <a href="calculator/index.html"><button class="button">Matematia</button></a>
+    <a href="sejarah/sejarah.html"><button class="button">Sejarah</button></a>
+    <a href="pipas.html"><button class="button">Pipas</button></a>
+   </div>
+</body>
+</html>
